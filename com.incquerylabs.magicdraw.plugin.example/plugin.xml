@@ -374,15 +374,4 @@
       <query-specification fqn="sysml.RequirementRelated_Verifies"/>
     </group>
   </extension>
-  <extension id="util.CommonLibrary" point="org.eclipse.viatra.query.runtime.queryspecification">
-    <group group="org.eclipse.viatra.query.runtime.extensibility.SingletonExtensionFactory:util.CommonLibrary" id="util.CommonLibrary">
-      <query-specification fqn="util.generalizedClassifier"/>
-      <query-specification fqn="util.indirectGeneralization"/>
-      <query-specification fqn="util.compatibleClassifier"/>
-      <query-specification fqn="util.owningPackage"/>
-      <query-specification fqn="util.owningPackageOrSelf"/>
-      <query-specification fqn="util.stereotypedElement"/>
-      <query-specification fqn="util.slotValue"/>
-    </group>
-  </extension>
 </plugin>
